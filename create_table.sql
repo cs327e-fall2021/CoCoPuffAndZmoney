@@ -1,14 +1,13 @@
 
-
-DROP DATABASE IF EXISTS final_project;
-CREATE DATABASE final_project;
-USE final_project;
+DROP DATABASE IF EXISTS load_testing;
+CREATE DATABASE load_testing;
+USE load_testing;
 
 --
--- Table structure for table `Customers`
+-- Table structure for table `Person`
 --
 
-CREATE TABLE Customers(
+CREATE TABLE Person(
     
     id MEDIUMINT NOT NULL AUTO_INCREMENT,
     first_name VARCHAR(15) NOT NULL,
